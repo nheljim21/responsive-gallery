@@ -26,3 +26,22 @@ A simple, responsive image gallery built using **HTML5**, **CSS3**, and **vanill
 
 ## 📁 Folder Structure
 
+
+---
+
+## 🚀 Deployment
+
+Deployed with [Vercel](https://vercel.com/)  
+➡️ [View Live Project](https://v0-new-project-tnin799xv2p.vercel.app/)
+
+---
+
+## 📸 Preview
+
+_Add a screenshot here (optional)_
+
+```html
+<!-- Upload a screenshot to your repo and link like this: -->
+<img src="screenshot.png" alt="Gallery preview" width="100%">
+
+
