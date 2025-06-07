@@ -9,6 +9,7 @@ A simple, responsive image gallery built using **HTML5**, **CSS3**, and **vanill
 
 [🔗 Live Demo](https://v0-new-project-tnin799xv2p.vercel.app/)
 
+![Responsive Gallery Demo]()
 ---
 
 ## 🛠️ Tech Stack & Tools
