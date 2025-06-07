@@ -2,7 +2,6 @@
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black&style=flat)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla%20ES6+-F7DF1E?logo=javascript&logoColor=black&style=flat)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=flat)
 
@@ -13,6 +12,7 @@ A simple, responsive image gallery built using **HTML5**, **CSS3**, and **vanill
 ---
 
 ## 🛠️ Tech Stack & Tools
+
 - **HTML5**
 - **CSS3**
 - **JavaScript (Vanilla/ES6+)**
