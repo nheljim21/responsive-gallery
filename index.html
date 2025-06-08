@@ -1,21 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Responsive Gallery</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Responsive Gallery</h1>
-  </header>
-  
-  <main class="gallery">
-    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Image 1" />
-    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80" alt="Image 2" />
-    <img src="https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee?auto=format&fit=crop&w=800&q=80" alt="Image 3" />
-    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Image 4" />
-  </main>
+    <div class="container">
+        <div class="quiz-card">
+            <!-- Quiz Header -->
+            <div class="quiz-header">
+                <h1>Quiz App</h1>
+                <div class="question-counter">
+                    <span id="current-question">1</span> of <span id="total-questions">5</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+
+            <!-- Quiz Content -->
+            <div class="quiz-content" id="quiz-content">
+                <h2 class="question" id="question-text">Loading question...</h2>
+                
+                <div class="options-container" id="options-container">
+                    <!-- Options will be dynamically generated -->
+                </div>
+
+                <button class="btn btn-primary" id="next-btn" disabled>Next Question</button>
+                
+                <div class="score-display">
+                    Current Score: <span id="current-score">0</span>/<span id="questions-answered">0</span>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div class="results-screen hidden" id="results-screen">
+                <h2>Quiz Complete!</h2>
+                <div class="final-score">
+                    <div class="score-number" id="final-score">0/5</div>
+                    <div class="score-percentage" id="score-percentage">0%</div>
+                    <div class="score-message" id="score-message">Keep practicing!</div>
+                </div>
+
+                <div class="results-review" id="results-review">
+                    <h3>Review Your Answers:</h3>
+                    <div id="review-container">
+                        <!-- Review items will be generated here -->
+                    </div>
+                </div>
+
+                <button class="btn btn-secondary" id="restart-btn">
+                    <span class="icon">↻</span> Take Quiz Again
+                </button>
+            </div>
+
+            <!-- Feedback Modal -->
+            <div class="feedback-modal hidden" id="feedback-modal">
+                <div class="feedback-content">
+                    <div class="feedback-icon" id="feedback-icon">✓</div>
+                    <div class="feedback-text" id="feedback-text">Correct!</div>
+                    <div class="feedback-explanation" id="feedback-explanation"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
